@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamA = scoreTeamA +1;
         displayForTeamA(scoreTeamA);
     }
-    /**
-     * Displays the given score for Team B.
+    /*
+     * Displays the given score for Team B. */
 
     public void displayForTeamB(int scoreTeamB) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
@@ -51,6 +51,6 @@ public class MainActivity extends AppCompatActivity {
     public void addOneForTeamB(View v){
         scoreTeamB = scoreTeamB +1;
         displayForTeamB(scoreTeamB);
-     }*/
+    }
 
 }
